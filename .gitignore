@@ -1,7 +1,9 @@
 CMakeFiles/
 bin/
+.vscode/
+.idea/
+.vs/
 
 CMakeCache.txt
 *.cmake
 Makefile
-.vscode/
