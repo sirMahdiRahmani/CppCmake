@@ -5,8 +5,6 @@ set(CMAKE_CXX_STANDARD 20)
 
 # define source directory
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)
-# define bin directory
-set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 
 #define .h files
 include_directories(${SOURCE_DIR}/public)

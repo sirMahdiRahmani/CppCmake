@@ -1,4 +1,4 @@
-cmake .
-make
+cmake --preset UniTest
+cmake --build --preset UniTest
 echo "-------------------------------------------------"
-./bin/UniTest
+./bin//build/UniTest/UniTest
