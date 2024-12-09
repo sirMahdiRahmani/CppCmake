@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.27)
-project(UniTest LANGUAGES CXX)
+project(UniTest)
 
-set(CMAKE_CXX_STANDARD 20)
+#set(CMAKE_CXX_STANDARD 20)
 
 # define source directory
 set(SOURCE_DIR ${CMAKE_SOURCE_DIR}/src)

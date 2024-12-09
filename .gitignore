@@ -1,6 +1,7 @@
 CMakeFiles/
 build/
 bin/
+out/
 .vscode/
 .idea/
 .vs/
