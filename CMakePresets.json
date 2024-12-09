@@ -2,12 +2,12 @@
   "version": 8,
   "configurePresets": [
     {
-      "name": "UniTest",
-      "displayName": "GCC 13.2.0 x86_64-linux-gnu",
+      "name": "CppCmake",
+      "displayName": "Linux",
       "description": "Using compilers: C = /usr/bin/gcc, CXX = /usr/bin/g++",
-      "binaryDir": "${sourceDir}/out/Ubuntu/build/${presetName}",
+      "binaryDir": "${sourceDir}/out/Linux/build/${presetName}",
       "cacheVariables": {
-        "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/Ubuntu/install/${presetName}",
+        "CMAKE_INSTALL_PREFIX": "${sourceDir}/out/Linux/install/${presetName}",
         "CMAKE_C_COMPILER": "/usr/bin/gcc",
         "CMAKE_CXX_COMPILER": "/usr/bin/g++",
         "CMAKE_BUILD_TYPE": "Debug"
@@ -74,8 +74,8 @@
       "name": "linux-debug",
       "displayName": "Linux Debug",
       "generator": "Ninja",
-      "binaryDir": "${sourceDir}/out/Ubuntu/build/${presetName}",
-      "installDir": "${sourceDir}/out/Ubuntu/install/${presetName}",
+      "binaryDir": "${sourceDir}/out/Linux/build/${presetName}",
+      "installDir": "${sourceDir}/out/Linux/install/${presetName}",
       "cacheVariables": {
         "CMAKE_BUILD_TYPE": "Debug"
       },
@@ -115,18 +115,18 @@
 
   "buildPresets": [
     {
-      "name": "UniTest",
+      "name": "CppCmake",
       "description": "",
       "displayName": "",
-      "configurePreset": "UniTest"
+      "configurePreset": "CppCmake"
     }
   ],
   "testPresets": [
     {
-      "name": "UniTest",
+      "name": "CppCmake",
       "description": "",
       "displayName": "",
-      "configurePreset": "UniTest"
+      "configurePreset": "CppCmake"
     }
   ]
 }

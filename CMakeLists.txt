@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.27)
-project(UniTest)
+project(CppCmake)
 
 #set(CMAKE_CXX_STANDARD 20)
 

@@ -1,4 +1,4 @@
-cmake --preset UniTest
-cmake --build --preset UniTest
+cmake --preset CppCmake
+cmake --build --preset CppCmake
 echo "-------------------------------------------------"
-./bin//build/UniTest/UniTest
+./out/Linux/build/CppCmake/CppCmake
